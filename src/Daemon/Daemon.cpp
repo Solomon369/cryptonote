@@ -132,7 +132,7 @@ int main(int argc, char* argv[])
       }
 
       if (command_line::get_arg(vm, arg_print_genesis_tx)) {
-        print_genesis_tx_hex();
+        pentacoin --print_genesis_tx_hex();
         return false;
       }
 
